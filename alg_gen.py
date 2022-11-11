@@ -12,9 +12,9 @@ import re
 python_file = 'biggest.py'
 work_file = None
 
-basic_conversion_rules = {"for": "FOR", "=": "TO", "if": "IF", "==": "EQUALS", "while": "WHILE", "until": "UNTIL", "import": "IMPORT", "class": "DEFINE CLASS", "def": "DEFINE FUNCTION", "else:": "ELSE:", "elif": "ELSEIF", "except:": "EXCEPT:", "try:": "TRY:", "pass": "PASS", "in": "IN"}
-prefix_conversion_rules = {"=": "SET ", "#F": "CALL "}
-advanced_conversion_rules = {"print": "OUTPUT", "return": "RETURN", "input": "INPUT"}
+basic_conversion_rules = {"for": "for", "=": "to", "if": "if", "==": "equals", "while": "while", "until": "until", "import": "import", "class": "define class", "def": "define function", "else:": "else:", "elif": "elseif", "except:": "except:", "try:": "try:", "pass": "pass", "in": "in"}
+prefix_conversion_rules = {"=": "set ", "#F": "call "}
+advanced_conversion_rules = {"print": "print", "return": "return", "input": "input"}
 
 def f2list(to_list):
     return to_list.readlines()
