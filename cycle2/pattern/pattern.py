@@ -3,7 +3,7 @@ def pattern():
         for j in range(i):
             print("*", end="")
         print("\n")
-    for i in reversed(range(1,6)):
+    for i in reversed(range(1,5)):
         for j in range(i):
             print("*",end="")
         print("\n")
