@@ -1,8 +1,12 @@
 def pattern():
     for i in range(1, 6):
-        print(i * "*")
+        for j in range(i):
+            print("*", end="")
+        print("\n")
     for i in reversed(range(1,6)):
-        print(i * "*")
+        for j in range(i):
+            print("*",end="")
+        print("\n")
             
 
 pattern()
