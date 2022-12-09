@@ -1,2 +1,2 @@
-from .cuboid import cuboidarea
-from .sphere import spherearea
+from .cuboid import cuboidarea,cuboidperi
+from .sphere import spherearea,spherevol
