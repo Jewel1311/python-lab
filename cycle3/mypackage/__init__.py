@@ -1,2 +1,2 @@
-from .circle import cirarea
-from .rectangle import rectarea
+from .circle import cirarea,cirper
+from .rectangle import rectarea,rectper
